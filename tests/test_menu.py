@@ -1,5 +1,5 @@
 # import pytest
-"""Test for menu command """
+'''test for menu'''
 from app import App
 
 def test_menu_command_output(capfd, monkeypatch):
