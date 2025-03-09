@@ -2,7 +2,7 @@
 
 ## Demonstration
 
-A video demonstration of the calculator, showcasing its key features, is available [here](#). *(Link to project video)*
+A video demonstration of the calculator, showcasing its key features, is available [here](https://drive.google.com/file/d/1HiCHe4ghcfOC3wG1cNlen1taAScpN-2j/view?usp=sharing). *(Link to project video)*
 
 ## Project Overview
 
