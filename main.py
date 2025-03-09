@@ -1,6 +1,7 @@
-import sys
+# import sys
 from calculator import Calculator
 from decimal import Decimal, InvalidOperation
+from app import App
 
 def calculate_and_print(a, b, operation_name):
     operation_mappings = {
@@ -26,12 +27,15 @@ def calculate_and_print(a, b, operation_name):
         print(f"An error occurred: {e}")
 
 def main():
-    if len(sys.argv) != 4:
-        print("Usage: python calculator_main.py <number1> <number2> <operation>")
-        sys.exit(1)
+    app = App()  # Initialize the App class
+    app.start()  # Start the app REPL loop
+    # if len(sys.argv) != 4:
+    #     print("Usage: python calculator_main.py <number1> <number2> <operation>")
+    #     sys.exit(1)
     
-    _, a, b, operation = sys.argv
-    calculate_and_print(a, b, operation)
+    # _, a, b, operation = sys.argv
+    # calculate_and_print(a, b, operation)
 
 if __name__ == '__main__':
     main()
+    # app = App().start()
