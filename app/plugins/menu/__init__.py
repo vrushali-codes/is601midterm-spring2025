@@ -1,3 +1,4 @@
+import logging
 from app.commands import Command
 
 class MenuCommand(Command):
@@ -6,6 +7,7 @@ class MenuCommand(Command):
 
     def execute(self, *args):
         """Displays a list of all available commands."""
+        logging.info("Displaying available commands.")
         print("Available commands:")
         for command_name in self.command_handler.commands:
             print(f"- {command_name}")
